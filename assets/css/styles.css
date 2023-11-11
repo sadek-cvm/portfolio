@@ -441,11 +441,13 @@ img {
 @media screen and (min-width: 500px) {
   .home {
     padding: 4rem 0 2rem;
-    margin-top: -3rem;
+    margin-top: 0rem;
+    margin-bottom: 5rem;
   }
 
   .home__img {
     width: 300px;
+    bottom: -3rem;
   }
 }
 
@@ -563,8 +565,8 @@ img {
     margin-top: -4rem;
   }
   .home__img {
-    width: 350px;
-    bottom: 20%
+    width: 380px;
+    bottom: 0;
   }
 }
 
@@ -575,11 +577,12 @@ img {
   }
   .home {
     padding: 10rem 0 2rem;
-    margin-top: -4rem;
+    margin-top: 6rem;
+    margin-bottom: 8rem;
   }
   .home__img {
-    width: 400px;
-    bottom: 12%
+    width: 450px;
+    bottom: 0;
   }
 }
 
